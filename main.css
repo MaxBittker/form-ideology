@@ -8,6 +8,7 @@ body {
   /* filter: contrast(0.8); */
   filter: contrast(1.1) brightness(1.1);
   text-align: justify;
+  font-size: 1.5em;
 }
 #art span {
   width: 100%;
@@ -17,6 +18,9 @@ body {
   margin: 2px;
   border-width: 3px;
   border-style: inset;
+}
+label {
+  text-align: left;
 }
 .grid {
   display: flex;
@@ -32,7 +36,9 @@ img {
   filter: grayscale(1);
 }
 textarea {
-  width: 100%;
+  /* width: 100%; */
+  margin: auto;
+  display: block;
 }
 html {
   margin: 0;
