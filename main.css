@@ -2,11 +2,11 @@ body {
   max-width: 500px;
   margin: 0px auto;
   padding: 1em;
-  background-color: #cacaca;
+  background-color: white;
   box-shadow: 1px 1px 30px #000;
   /* column-count: 2; */
   /* filter: contrast(0.8); */
-  filter: contrast(1.1) brightness(1.1);
+  /* filter: contrast(1.1) brightness(1.1); */
   text-align: justify;
   font-size: 1.5em;
 }
@@ -30,10 +30,10 @@ img {
   width: 100%;
   filter: grayscale();
   margin: auto;
-  filter: brightness(0.79234) grayscale(1);
+  /* filter: brightness(0.79234) grayscale(1); */
 }
 .form-hero {
-  filter: grayscale(1);
+  /* filter: grayscale(1); */
 }
 textarea {
   /* width: 100%; */
